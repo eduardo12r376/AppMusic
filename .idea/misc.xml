@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/lalo2/OneDrive/Documentos/Desarrollo de aplicaciones moviles/AppMusicUnidad07/AppMusic/app/src/main/res/drawable/cell_both_dots.xml" value="0.1955" />
+        <entry key="..\:/Users/lalo2/OneDrive/Documentos/Desarrollo de aplicaciones moviles/AppMusicUnidad07/AppMusic/app/src/main/res/drawable/ic_baseline_home_24.xml" value="0.1605" />
+        <entry key="..\:/Users/lalo2/OneDrive/Documentos/Desarrollo de aplicaciones moviles/AppMusicUnidad07/AppMusic/app/src/main/res/drawable/ic_baseline_menu_24.xml" value="0.143" />
+        <entry key="..\:/Users/lalo2/OneDrive/Documentos/Desarrollo de aplicaciones moviles/AppMusicUnidad07/AppMusic/app/src/main/res/drawable/ic_baseline_stay_current_portrait_24.xml" value="0.143" />
+        <entry key="..\:/Users/lalo2/OneDrive/Documentos/Desarrollo de aplicaciones moviles/AppMusicUnidad07/AppMusic/app/src/main/res/font/poppins_regular.xml" value="0.26481481481481484" />
+        <entry key="..\:/Users/lalo2/OneDrive/Documentos/Desarrollo de aplicaciones moviles/AppMusicUnidad07/AppMusic/app/src/main/res/font/poppins_semibold.xml" value="0.27589743589743587" />
+        <entry key="..\:/Users/lalo2/OneDrive/Documentos/Desarrollo de aplicaciones moviles/AppMusicUnidad07/AppMusic/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Users/lalo2/OneDrive/Documentos/Desarrollo de aplicaciones moviles/AppMusicUnidad07/AppMusic/app/src/main/res/layout/artista_list.xml" value="0.4" />
+        <entry key="..\:/Users/lalo2/OneDrive/Documentos/Desarrollo de aplicaciones moviles/AppMusicUnidad07/AppMusic/app/src/main/res/layout/contendor_fragmets.xml" value="0.20521590423257802" />
+        <entry key="..\:/Users/lalo2/OneDrive/Documentos/Desarrollo de aplicaciones moviles/AppMusicUnidad07/AppMusic/app/src/main/res/layout/content_main.xml" value="0.25" />
+        <entry key="..\:/Users/lalo2/OneDrive/Documentos/Desarrollo de aplicaciones moviles/AppMusicUnidad07/AppMusic/app/src/main/res/layout/fragment_artistas.xml" value="0.25" />
+        <entry key="..\:/Users/lalo2/OneDrive/Documentos/Desarrollo de aplicaciones moviles/AppMusicUnidad07/AppMusic/app/src/main/res/layout/fragment_bienvenida.xml" value="0.23212321232123212" />
+        <entry key="..\:/Users/lalo2/OneDrive/Documentos/Desarrollo de aplicaciones moviles/AppMusicUnidad07/AppMusic/app/src/main/res/layout/fragment_contratacion.xml" value="0.25" />
+        <entry key="..\:/Users/lalo2/OneDrive/Documentos/Desarrollo de aplicaciones moviles/AppMusicUnidad07/AppMusic/app/src/main/res/layout/fragment_editar_paquete.xml" value="0.20521590423257802" />
+        <entry key="..\:/Users/lalo2/OneDrive/Documentos/Desarrollo de aplicaciones moviles/AppMusicUnidad07/AppMusic/app/src/main/res/layout/fragment_editar_perfil_artista.xml" value="0.1936725096194955" />
+        <entry key="..\:/Users/lalo2/OneDrive/Documentos/Desarrollo de aplicaciones moviles/AppMusicUnidad07/AppMusic/app/src/main/res/layout/fragment_gruposmusicales.xml" value="0.25" />
+        <entry key="..\:/Users/lalo2/OneDrive/Documentos/Desarrollo de aplicaciones moviles/AppMusicUnidad07/AppMusic/app/src/main/res/layout/fragment_historial_contrataciones.xml" value="0.20521590423257802" />
+        <entry key="..\:/Users/lalo2/OneDrive/Documentos/Desarrollo de aplicaciones moviles/AppMusicUnidad07/AppMusic/app/src/main/res/layout/fragment_main.xml" value="0.25" />
+        <entry key="..\:/Users/lalo2/OneDrive/Documentos/Desarrollo de aplicaciones moviles/AppMusicUnidad07/AppMusic/app/src/main/res/layout/fragment_mis_paquetes.xml" value="0.20521590423257802" />
+        <entry key="..\:/Users/lalo2/OneDrive/Documentos/Desarrollo de aplicaciones moviles/AppMusicUnidad07/AppMusic/app/src/main/res/layout/fragment_paquetes.xml" value="0.25" />
+        <entry key="..\:/Users/lalo2/OneDrive/Documentos/Desarrollo de aplicaciones moviles/AppMusicUnidad07/AppMusic/app/src/main/res/layout/fragment_perfilartista.xml" value="0.19701213818860877" />
+        <entry key="..\:/Users/lalo2/OneDrive/Documentos/Desarrollo de aplicaciones moviles/AppMusicUnidad07/AppMusic/app/src/main/res/layout/fragment_perfilcontratacion.xml" value="0.25" />
+        <entry key="..\:/Users/lalo2/OneDrive/Documentos/Desarrollo de aplicaciones moviles/AppMusicUnidad07/AppMusic/app/src/main/res/layout/fragment_registrousuarios.xml" value="0.25" />
+        <entry key="..\:/Users/lalo2/OneDrive/Documentos/Desarrollo de aplicaciones moviles/AppMusicUnidad07/AppMusic/app/src/main/res/layout/fragment_reservacion.xml" value="0.20521590423257802" />
+        <entry key="..\:/Users/lalo2/OneDrive/Documentos/Desarrollo de aplicaciones moviles/AppMusicUnidad07/AppMusic/app/src/main/res/layout/header_menu.xml" value="0.25" />
+        <entry key="..\:/Users/lalo2/OneDrive/Documentos/Desarrollo de aplicaciones moviles/AppMusicUnidad07/AppMusic/app/src/main/res/layout/header_menuartista.xml" value="0.20521590423257802" />
+        <entry key="..\:/Users/lalo2/OneDrive/Documentos/Desarrollo de aplicaciones moviles/AppMusicUnidad07/AppMusic/app/src/main/res/layout/historial_list.xml" value="0.264" />
+        <entry key="..\:/Users/lalo2/OneDrive/Documentos/Desarrollo de aplicaciones moviles/AppMusicUnidad07/AppMusic/app/src/main/res/layout/hitorial_list.xml" value="0.536" />
+        <entry key="..\:/Users/lalo2/OneDrive/Documentos/Desarrollo de aplicaciones moviles/AppMusicUnidad07/AppMusic/app/src/main/res/layout/siguiente.xml" value="0.25" />
+        <entry key="..\:/Users/lalo2/OneDrive/Documentos/Desarrollo de aplicaciones moviles/AppMusicUnidad07/AppMusic/app/src/main/res/layout/tolbarregistorusuario.xml" value="0.20521590423257802" />
+        <entry key="..\:/Users/lalo2/OneDrive/Documentos/Desarrollo de aplicaciones moviles/AppMusicUnidad07/AppMusic/app/src/main/res/layout/toolbar.xml" value="0.20521590423257802" />
+        <entry key="..\:/Users/lalo2/OneDrive/Documentos/Desarrollo de aplicaciones moviles/AppMusicUnidad07/AppMusic/app/src/main/res/layout/toolbar_reservacion.xml" value="0.20521590423257802" />
+        <entry key="..\:/Users/lalo2/OneDrive/Documentos/Desarrollo de aplicaciones moviles/AppMusicUnidad07/AppMusic/app/src/main/res/layout/toolbarcontratacion.xml" value="0.20521590423257802" />
+        <entry key="..\:/Users/lalo2/OneDrive/Documentos/Desarrollo de aplicaciones moviles/AppMusicUnidad07/AppMusic/app/src/main/res/layout/toolbareditarpaquete.xml" value="0.20521590423257802" />
+        <entry key="..\:/Users/lalo2/OneDrive/Documentos/Desarrollo de aplicaciones moviles/AppMusicUnidad07/AppMusic/app/src/main/res/layout/toolbareditarperfil.xml" value="0.20521590423257802" />
+        <entry key="..\:/Users/lalo2/OneDrive/Documentos/Desarrollo de aplicaciones moviles/AppMusicUnidad07/AppMusic/app/src/main/res/layout/toolbargrupos.xml" value="0.25" />
+        <entry key="..\:/Users/lalo2/OneDrive/Documentos/Desarrollo de aplicaciones moviles/AppMusicUnidad07/AppMusic/app/src/main/res/layout/toolbarhistorial.xml" value="0.20521590423257802" />
+        <entry key="..\:/Users/lalo2/OneDrive/Documentos/Desarrollo de aplicaciones moviles/AppMusicUnidad07/AppMusic/app/src/main/res/layout/toolbarmispaquetes.xml" value="0.20521590423257802" />
+        <entry key="..\:/Users/lalo2/OneDrive/Documentos/Desarrollo de aplicaciones moviles/AppMusicUnidad07/AppMusic/app/src/main/res/layout/toolbarmispauqtes.xml" value="0.20521590423257802" />
+        <entry key="..\:/Users/lalo2/OneDrive/Documentos/Desarrollo de aplicaciones moviles/AppMusicUnidad07/AppMusic/app/src/main/res/layout/toolbarnuevoartista.xml" value="0.20521590423257802" />
+        <entry key="..\:/Users/lalo2/OneDrive/Documentos/Desarrollo de aplicaciones moviles/AppMusicUnidad07/AppMusic/app/src/main/res/layout/toolbarpaquetes.xml" value="0.20521590423257802" />
+        <entry key="..\:/Users/lalo2/OneDrive/Documentos/Desarrollo de aplicaciones moviles/AppMusicUnidad07/AppMusic/app/src/main/res/layout/toolbarperfilartista.xml" value="0.20521590423257802" />
+        <entry key="..\:/Users/lalo2/OneDrive/Documentos/Desarrollo de aplicaciones moviles/AppMusicUnidad07/AppMusic/app/src/main/res/layout/toolbarperfilcontra.xml" value="0.20521590423257802" />
+        <entry key="..\:/Users/lalo2/OneDrive/Documentos/Desarrollo de aplicaciones moviles/AppMusicUnidad07/AppMusic/app/src/main/res/layout/toolbarregistorusuario.xml" value="0.20521590423257802" />
+        <entry key="..\:/Users/lalo2/OneDrive/Documentos/Desarrollo de aplicaciones moviles/AppMusicUnidad07/AppMusic/app/src/main/res/menu/main_menu.xml" value="0.25" />
+        <entry key="..\:/Users/lalo2/OneDrive/Documentos/Desarrollo de aplicaciones moviles/AppMusicUnidad07/AppMusic/app/src/main/res/menu/main_menuartista.xml" value="0.20521590423257802" />
+        <entry key="..\:/Users/lalo2/OneDrive/Documentos/Desarrollo de aplicaciones moviles/AppMusicUnidad07/AppMusic/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.143" />
+        <entry key="..\:/Users/lalo2/OneDrive/Documentos/Desarrollo de aplicaciones moviles/AppMusicUnidad07/AppMusic/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.121" />
+        <entry key="..\:/Users/lalo2/OneDrive/Documentos/Desarrollo de aplicaciones moviles/copias de nuetra app/AppMusic/app/src/main/res/layout/fragment_bienvenida.xml" value="0.25" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_17" default="true" project-jdk-name="jbr-17" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

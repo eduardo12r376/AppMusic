@@ -1,0 +1,314 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_grap"
+    app:startDestination="@id/mainFragment">
+
+    <fragment
+        android:id="@+id/mainFragment"
+        android:name="com.example.appmusic.MainFragment"
+        android:label="fragment_main"
+        tools:layout="@layout/fragment_main" >
+        <action
+            android:id="@+id/action_mainFragment_to_bienvenida2"
+            app:destination="@id/bienvenida2" />
+        <action
+            android:id="@+id/action_mainFragment_to_registroUsuarios22"
+            app:destination="@id/registroUsuarios2" />
+        <action
+            android:id="@+id/action_mainFragment_to_perfilArtista"
+            app:destination="@id/perfilArtista" />
+    </fragment>
+    <fragment
+        android:id="@+id/bienvenida2"
+        android:name="com.example.appmusic.Bienvenida"
+        android:label="fragment_bienvenida"
+        tools:layout="@layout/fragment_bienvenida" >
+        <action
+            android:id="@+id/action_bienvenida2_to_datosArtistas"
+            app:destination="@id/datosArtistas" />
+        <action
+            android:id="@+id/action_bienvenida2_to_gruposMusicales"
+            app:destination="@id/gruposMusicales" />
+        <action
+            android:id="@+id/action_bienvenida2_to_mainFragment"
+            app:destination="@id/mainFragment" />
+        <action
+            android:id="@+id/action_bienvenida2_self"
+            app:destination="@id/bienvenida2" />
+        <action
+            android:id="@+id/action_bienvenida2_to_perfilContratacion"
+            app:destination="@id/perfilContratacion" />
+    </fragment>
+    <fragment
+        android:id="@+id/datosArtistas"
+        android:name="com.example.appmusic.DatosArtistas"
+        android:label="fragment_artistas"
+        tools:layout="@layout/fragment_artistas" >
+        <action
+            android:id="@+id/action_datosArtistas_to_perfilArtista"
+            app:destination="@id/perfilArtista" />
+        <action
+            android:id="@+id/action_datosArtistas_to_bienvenida2"
+            app:destination="@id/bienvenida2" />
+        <action
+            android:id="@+id/action_datosArtistas_self"
+            app:destination="@id/datosArtistas" />
+        <action
+            android:id="@+id/action_datosArtistas_to_mainFragment"
+            app:destination="@id/mainFragment" />
+        <action
+            android:id="@+id/action_datosArtistas_to_gruposMusicales"
+            app:destination="@id/gruposMusicales" />
+    </fragment>
+    <fragment
+        android:id="@+id/perfilArtista"
+        android:name="com.example.appmusic.PerfilArtista"
+        android:label="fragment_perfilartista"
+        tools:layout="@layout/fragment_perfilartista" >
+        <action
+            android:id="@+id/action_perfilArtista_to_paquetes"
+            app:destination="@id/paquetes" />
+        <action
+            android:id="@+id/action_perfilArtista_self"
+            app:destination="@id/perfilArtista" />
+        <action
+            android:id="@+id/action_perfilArtista_to_historialContrataciones"
+            app:destination="@id/historialContrataciones" />
+        <action
+            android:id="@+id/action_perfilArtista_to_misPaquetes"
+            app:destination="@id/misPaquetes" />
+        <action
+            android:id="@+id/action_perfilArtista_to_mainFragment"
+            app:destination="@id/mainFragment" />
+        <action
+            android:id="@+id/action_perfilArtista_to_editarPerfilArtista"
+            app:destination="@id/editarPerfilArtista" />
+    </fragment>
+    <fragment
+        android:id="@+id/paquetes"
+        android:name="com.example.appmusic.Paquetes"
+        android:label="fragment_paquetes"
+        tools:layout="@layout/fragment_paquetes" >
+        <action
+            android:id="@+id/action_paquetes_to_perfilArtista"
+            app:destination="@id/perfilArtista" />
+        <action
+            android:id="@+id/action_paquetes_to_perfilArtista2"
+            app:destination="@id/perfilArtista" />
+        <action
+            android:id="@+id/action_paquetes_self"
+            app:destination="@id/paquetes" />
+        <action
+            android:id="@+id/action_paquetes_to_historialContrataciones"
+            app:destination="@id/historialContrataciones" />
+        <action
+            android:id="@+id/action_paquetes_to_mainFragment"
+            app:destination="@id/mainFragment" />
+        <action
+            android:id="@+id/action_paquetes_to_editarPerfilArtista"
+            app:destination="@id/editarPerfilArtista" />
+    </fragment>
+    <fragment
+        android:id="@+id/gruposMusicales"
+        android:name="com.example.appmusic.GruposMusicales"
+        android:label="fragment_gruposmusicales"
+        tools:layout="@layout/fragment_gruposmusicales" >
+        <action
+            android:id="@+id/action_gruposMusicales_to_perfilContratacion"
+            app:destination="@id/perfilContratacion" />
+        <action
+            android:id="@+id/action_gruposMusicales_to_bienvenida2"
+            app:destination="@id/bienvenida2" />
+        <action
+            android:id="@+id/action_gruposMusicales_self"
+            app:destination="@id/gruposMusicales" />
+        <action
+            android:id="@+id/action_gruposMusicales_to_datosArtistas"
+            app:destination="@id/datosArtistas" />
+        <action
+            android:id="@+id/action_gruposMusicales_to_mainFragment"
+            app:destination="@id/mainFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/contratacion"
+        android:name="com.example.appmusic.Contratacion"
+        android:label="fragment_contratacion"
+        tools:layout="@layout/fragment_contratacion" >
+        <action
+            android:id="@+id/action_contratacion_to_reservacion"
+            app:destination="@id/reservacion" />
+        <action
+            android:id="@+id/action_contratacion_to_bienvenida2"
+            app:destination="@id/bienvenida2" />
+        <action
+            android:id="@+id/action_contratacion_to_perfilContratacion"
+            app:destination="@id/perfilContratacion" />
+        <action
+            android:id="@+id/action_contratacion_to_gruposMusicales"
+            app:destination="@id/gruposMusicales" />
+        <action
+            android:id="@+id/action_contratacion_to_bienvenida22"
+            app:destination="@id/bienvenida2" />
+        <action
+            android:id="@+id/action_contratacion_to_datosArtistas"
+            app:destination="@id/datosArtistas" />
+        <action
+            android:id="@+id/action_contratacion_to_mainFragment"
+            app:destination="@id/mainFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/perfilContratacion"
+        android:name="com.example.appmusic.PerfilContratacion"
+        android:label="fragment_perfilcontratacion"
+        tools:layout="@layout/fragment_perfilcontratacion" >
+        <action
+            android:id="@+id/action_perfilContratacion_to_contratacion"
+            app:destination="@id/contratacion" />
+        <action
+            android:id="@+id/action_perfilContratacion_to_bienvenida2"
+            app:destination="@id/bienvenida2" />
+        <action
+            android:id="@+id/action_perfilContratacion_to_bienvenida22"
+            app:destination="@id/bienvenida2" />
+        <action
+            android:id="@+id/action_perfilContratacion_to_gruposMusicales"
+            app:destination="@id/gruposMusicales" />
+        <action
+            android:id="@+id/action_perfilContratacion_self"
+            app:destination="@id/perfilContratacion" />
+        <action
+            android:id="@+id/action_perfilContratacion_self2"
+            app:destination="@id/perfilContratacion" />
+        <action
+            android:id="@+id/action_perfilContratacion_to_gruposMusicales2"
+            app:destination="@id/gruposMusicales" />
+        <action
+            android:id="@+id/action_perfilContratacion_to_datosArtistas"
+            app:destination="@id/datosArtistas" />
+        <action
+            android:id="@+id/action_perfilContratacion_to_mainFragment"
+            app:destination="@id/mainFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/reservacion"
+        android:name="com.example.appmusic.Reservacion"
+        android:label="fragment_reservacion"
+        tools:layout="@layout/fragment_reservacion" >
+        <action
+            android:id="@+id/action_reservacion_to_bienvenida2"
+            app:destination="@id/bienvenida2" />
+        <action
+            android:id="@+id/action_reservacion_to_bienvenida22"
+            app:destination="@id/bienvenida2" />
+        <action
+            android:id="@+id/action_reservacion_to_bienvenida23"
+            app:destination="@id/bienvenida2" />
+    </fragment>
+    <fragment
+        android:id="@+id/registroUsuarios2"
+        android:name="com.example.appmusic.RegistroUsuarios"
+        android:label="fragment_registrousuarios"
+        tools:layout="@layout/fragment_registrousuarios" >
+        <action
+            android:id="@+id/action_registroUsuarios2_to_mainFragment3"
+            app:destination="@id/mainFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/historialContrataciones"
+        android:name="com.example.appmusic.HistorialContrataciones"
+        android:label="fragment_historial_contrataciones"
+        tools:layout="@layout/fragment_historial_contrataciones" >
+        <action
+            android:id="@+id/action_historialContrataciones_to_perfilArtista"
+            app:destination="@id/perfilArtista" />
+        <action
+            android:id="@+id/action_historialContrataciones_self"
+            app:destination="@id/historialContrataciones" />
+        <action
+            android:id="@+id/action_historialContrataciones_to_paquetes"
+            app:destination="@id/paquetes" />
+        <action
+            android:id="@+id/action_historialContrataciones_to_mainFragment"
+            app:destination="@id/mainFragment" />
+        <action
+            android:id="@+id/action_historialContrataciones_to_editarPerfilArtista"
+            app:destination="@id/editarPerfilArtista" />
+    </fragment>
+    <fragment
+        android:id="@+id/misPaquetes"
+        android:name="com.example.appmusic.MisPaquetes"
+        android:label="fragment_mis_paquetes"
+        tools:layout="@layout/fragment_mis_paquetes" >
+        <action
+            android:id="@+id/action_misPaquetes_to_paquetes"
+            app:destination="@id/paquetes" />
+        <action
+            android:id="@+id/action_misPaquetes_to_paquetes2"
+            app:destination="@id/paquetes" />
+        <action
+            android:id="@+id/action_misPaquetes_to_historialContrataciones"
+            app:destination="@id/historialContrataciones" />
+        <action
+            android:id="@+id/action_misPaquetes_to_perfilArtista"
+            app:destination="@id/perfilArtista" />
+        <action
+            android:id="@+id/action_misPaquetes_to_mainFragment"
+            app:destination="@id/mainFragment" />
+        <action
+            android:id="@+id/action_misPaquetes_to_editarPaquete"
+            app:destination="@id/editarPaquete" />
+        <action
+            android:id="@+id/action_misPaquetes_to_editarPerfilArtista"
+            app:destination="@id/editarPerfilArtista" />
+    </fragment>
+    <fragment
+        android:id="@+id/editarPaquete"
+        android:name="com.example.appmusic.EditarPaquete"
+        android:label="fragment_editar_paquete"
+        tools:layout="@layout/fragment_editar_paquete" >
+        <action
+            android:id="@+id/action_editarPaquete_to_misPaquetes"
+            app:destination="@id/misPaquetes" />
+        <action
+            android:id="@+id/action_editarPaquete_to_mainFragment"
+            app:destination="@id/mainFragment" />
+        <action
+            android:id="@+id/action_editarPaquete_to_paquetes"
+            app:destination="@id/paquetes" />
+        <action
+            android:id="@+id/action_editarPaquete_to_perfilArtista"
+            app:destination="@id/perfilArtista" />
+        <action
+            android:id="@+id/action_editarPaquete_to_historialContrataciones"
+            app:destination="@id/historialContrataciones" />
+        <action
+            android:id="@+id/action_editarPaquete_to_editarPerfilArtista"
+            app:destination="@id/editarPerfilArtista" />
+    </fragment>
+    <fragment
+        android:id="@+id/editarPerfilArtista"
+        android:name="com.example.appmusic.EditarPerfilArtista"
+        android:label="fragment_editar_perfil_artista"
+        tools:layout="@layout/fragment_editar_perfil_artista" >
+        <action
+            android:id="@+id/action_editarPerfilArtista_to_perfilArtista"
+            app:destination="@id/perfilArtista" />
+        <action
+            android:id="@+id/action_editarPerfilArtista_self"
+            app:destination="@id/editarPerfilArtista" />
+        <action
+            android:id="@+id/action_editarPerfilArtista_to_mainFragment"
+            app:destination="@id/mainFragment" />
+        <action
+            android:id="@+id/action_editarPerfilArtista_to_misPaquetes"
+            app:destination="@id/misPaquetes" />
+        <action
+            android:id="@+id/action_editarPerfilArtista_to_paquetes"
+            app:destination="@id/paquetes" />
+        <action
+            android:id="@+id/action_editarPerfilArtista_to_historialContrataciones"
+            app:destination="@id/historialContrataciones" />
+    </fragment>
+</navigation>

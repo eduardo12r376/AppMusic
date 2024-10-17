@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".RegistroUsuarios">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="55dp">
+
+        <!-- TODO: Update blank fragment layout -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15.7dp"
+            android:layout_marginRight="15.7dp"
+            android:orientation="vertical">
+
+            <com.google.android.material.textfield.TextInputLayout
+
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:hint="Nombre"
+                app:counterEnabled="true"
+                app:counterMaxLength="40"
+                app:helperText="Required"
+                app:startIconDrawable="@drawable/idusuario">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/idNombre"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:hint="Apellido Paterno"
+                app:counterEnabled="true"
+                app:counterMaxLength="40"
+                app:helperText="Required"
+                app:startIconDrawable="@drawable/idusuario">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/idApellidoPaterno"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:hint="Apellido Materno"
+                app:counterEnabled="true"
+                app:counterMaxLength="40"
+                app:helperText="Required"
+                app:startIconDrawable="@drawable/idusuario">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/idApelldioMaterno"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:hint="Telefono"
+                app:counterEnabled="true"
+                app:counterMaxLength="40"
+                app:helperText="Required"
+                app:startIconDrawable="@drawable/idtelefono">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/idTelefonoUusuario"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="number" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:hint="Correo"
+                app:counterEnabled="true"
+                app:counterMaxLength="40"
+                app:helperText="Required"
+                app:startIconDrawable="@drawable/idcorreo">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/idCorreo"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="textEmailAddress" />
+
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:hint="Usuario"
+                app:counterEnabled="true"
+                app:counterMaxLength="40"
+                app:helperText="Required"
+                app:startIconDrawable="@drawable/idusuario">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/idUsuario"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:hint="Contraseña"
+                app:counterEnabled="true"
+                app:counterMaxLength="20"
+                app:endIconMode="password_toggle"
+                app:startIconDrawable="@drawable/idcontrase">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/idPassword"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="textPassword" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <Button
+                    android:id="@+id/idCancelar"
+                    android:layout_width="150dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center"
+                    android:layout_marginStart="20dp"
+                    android:backgroundTint="@color/orange"
+                    android:text="Cancelar"
+                    android:textColor="@color/black"
+                    app:cornerRadius="15dp" />
+
+                <Button
+                    android:id="@+id/idLogin"
+                    android:layout_width="150dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center"
+                    android:layout_marginStart="10dp"
+                    android:backgroundTint="@color/orange"
+                    android:text="Registrar"
+                    android:textColor="@color/black"
+                    app:cornerRadius="15dp" />
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+    <include
+        layout="@layout/toolbarregistorusuario"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"></include>
+
+</RelativeLayout>

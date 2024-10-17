@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+
+        <item android:id="@+id/nav_home" android:title="Mi perfil"
+            android:icon="@drawable/ic_baseline_home_24"/>
+
+        <item android:id="@+id/nav_user" android:title="Registrar un paquete"
+            android:icon="@drawable/idusuario"/>
+
+        <item android:id="@+id/nav_search" android:title="Historial de eventos"
+            android:icon="@drawable/idguitarra"
+            />
+    </group>
+
+    <group android:checkableBehavior="single">
+        <item android:title="Comunicación">
+            <menu>
+                <group>
+
+                    <item android:id="@+id/nav_perfil" android:title="Editar perfil"
+                        android:icon="@drawable/idguitarra"/>
+                    <item android:id="@+id/nav_salir" android:title="Cerrar sesion"
+                        android:icon="@drawable/idguitarra"/>
+                </group>
+            </menu>
+        </item>
+    </group>
+
+</menu>

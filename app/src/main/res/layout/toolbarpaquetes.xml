@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/orange"
+        >
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/topAppBarPaquetes"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:theme="@style/ThemeOverlay.AppCompat.Dark"
+            app:navigationIcon="@drawable/ic_baseline_menu_24"
+            app:title="REGISTRAR PAQUETES"
+            app:titleMarginStart="33dp">
+
+        </androidx.appcompat.widget.Toolbar>
+
+        <ImageButton
+            android:id="@+id/idPaquetesAPerfil"
+            android:layout_width="wrap_content"
+            android:layout_height="?attr/actionBarSize"
+            android:backgroundTint="@color/transparent"
+            android:src="@drawable/flecha"
+            android:layout_alignParentEnd="true">
+        </ImageButton>
+
+    </RelativeLayout>
+
+</LinearLayout>

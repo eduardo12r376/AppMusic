@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="5dp"
+    android:background="?android:attr/statusBarColor"
+    card_view:cardCornerRadius="5dp">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        card_view:cardCornerRadius="5dp"
+        card_view:cardElevation="5dp"
+        card_view:cardUseCompatPadding="true"
+
+        >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#FBE197"
+            android:padding="5dp">
+
+
+            <ImageView
+                android:id="@+id/idLogoArtista"
+                android:layout_width="150dp"
+                android:layout_height="match_parent"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginRight="5dp" />
+
+
+            <TextView
+                android:id="@+id/idSubNombre"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_toRightOf="@+id/idLogoArtista"
+                android:text="Nombre: "
+                android:textColor="@color/black"
+                android:textSize="17sp" />
+
+            <TextView
+                android:id="@+id/idNombreGrupoArtist"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/idSubNombre"
+                android:layout_toRightOf="@+id/idLogoArtista"
+                android:textSize="14sp" />
+
+
+            <TextView
+                android:id="@+id/idSubDescripcion"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/idNombreGrupoArtist"
+                android:layout_marginTop="10dp"
+                android:layout_toRightOf="@+id/idLogoArtista"
+                android:text="Descripcion: "
+                android:textColor="@color/black"
+                android:textSize="17sp" />
+
+            <TextView
+                android:id="@+id/idDescripcionArtist"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/idSubDescripcion"
+                android:layout_toRightOf="@+id/idLogoArtista"
+                android:textSize="14sp" />
+
+
+            <TextView
+                android:id="@+id/idSubGnero"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/idDescripcionArtist"
+                android:layout_marginTop="10dp"
+                android:layout_toRightOf="@+id/idLogoArtista"
+                android:text="Genero: "
+                android:textColor="@color/black"
+                android:textSize="17sp" />
+
+            <TextView
+                android:id="@+id/idGeneroMusicalArtist"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/idSubGnero"
+                android:layout_toRightOf="@+id/idLogoArtista"
+                android:textSize="14sp" />
+
+
+            <TextView
+                android:id="@+id/idSubCorreo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/idGeneroMusicalArtist"
+                android:layout_marginTop="10dp"
+                android:layout_toRightOf="@+id/idLogoArtista"
+                android:text="Correo: "
+                android:textColor="@color/black"
+                android:textSize="17sp" />
+
+            <TextView
+                android:id="@+id/idCorreoArtist"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/idSubCorreo"
+                android:layout_toRightOf="@+id/idLogoArtista"
+                android:textSize="14sp" />
+
+
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>

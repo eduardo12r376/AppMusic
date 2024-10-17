@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto">
+
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        card_view:cardCornerRadius="2dp"
+        card_view:cardElevation="2dp"
+        card_view:cardUseCompatPadding="true"
+        card_view:cardBackgroundColor="@color/black"
+        android:outlineSpotShadowColor="@color/black"
+        android:outlineAmbientShadowColor="@color/black"
+        >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#FBE197"
+            android:padding="5dp">
+
+
+            <TextView
+                android:id="@+id/idSubNombreUsuario"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:text="CLIENTE"
+                android:textColor="@color/black"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/idNombreUsuario"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/idSubNombreUsuario"
+                android:layout_alignParentLeft="true"
+                android:textSize="16sp" />
+
+
+            <TextView
+                android:id="@+id/idSubPaquete"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_toRightOf="@+id/idSubNombreUsuario"
+                android:text="PAQUETE"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+               />
+
+            <TextView
+                android:id="@+id/idPaqueteCotratado"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/idSubPaquete"
+                android:layout_toRightOf="@+id/idNombreUsuario"
+                android:textSize="16sp" />
+
+
+            <TextView
+                android:id="@+id/idSubHora"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_toRightOf="@+id/idSubPaquete"
+                android:text="HORA EVENTO"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+               />
+
+            <TextView
+                android:id="@+id/idHoraEvento"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/idSubHora"
+                android:layout_toRightOf="@+id/idPaqueteCotratado"
+                android:textSize="16sp" />
+
+
+            <TextView
+                android:id="@+id/idSubFechaEvento"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_toRightOf="@+id/idSubHora"
+                android:text="FECHA EVENTO"
+                android:textColor="@color/black"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/idfechaEvento"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/idSubFechaEvento"
+                android:layout_toRightOf="@+id/idHoraEvento"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/idSubReservado"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_toRightOf="@+id/idSubFechaEvento"
+                android:text="SE RESERVO"
+                android:textColor="@color/black"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/idReservado"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/idSubReservado"
+                android:layout_toRightOf="@+id/idfechaEvento"
+                android:textSize="16sp" />
+
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+    </HorizontalScrollView>
+</LinearLayout>
